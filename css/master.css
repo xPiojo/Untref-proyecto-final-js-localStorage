@@ -1,0 +1,219 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #2b2b2b;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  /* Estilos para el icono de carrito y elementos relacionados */
+}
+header .logo img {
+  width: 130px;
+}
+header .carrito-icon {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Para colocar al lado derecho del header */
+  margin-right: 30px;
+  /* Margen de separación */
+}
+header .carrito-icon i {
+  font-size: 1.8rem; /* Tamaño del icono */
+  margin-right: 5px; /* Espacio entre el icono y el texto */
+}
+header .carrito-icon span {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+#productos {
+  border: 1px solid #4f4f4f;
+  border-radius: 15px;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+#productos h1 {
+  color: #4f4f4f;
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-weight: 900;
+  text-decoration: underline;
+  width: 100%;
+  text-align: center;
+}
+
+/* Estilos para el contenedor de los productos */
+#contenedor-productos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  margin: 10px;
+  justify-content: center;
+}
+
+/* caja del producto */
+.producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 350px;
+  max-width: 350px;
+  margin: auto;
+  /* caja de la imagen */
+  /* caja del texto */
+}
+.producto .producto-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.producto .img-producto {
+  height: 250px;
+}
+.producto .caja-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #d3d3d3;
+  border-radius: 15px;
+}
+.producto .caja-texto .producto-nombre {
+  color: #f85407;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+}
+.producto .caja-texto .producto-descripcion {
+  margin: 0;
+  height: 100%;
+  color: #4f4f4f;
+  font-size: 1.5rem;
+}
+.producto .caja-texto .producto-precio {
+  margin: 20px 0;
+}
+.producto .caja-texto .boton-ver_mas {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* css responsive */
+@media (min-width: 768px) {
+  #contenedor-productos {
+    grid-template-columns: 1fr 1fr;
+  }
+  .producto {
+    margin: 0 auto;
+    width: 360px;
+  }
+}
+@media (min-width: 992px) {
+  #contenedor-productos {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    gap: 3px;
+  }
+  #contenedor-productos .producto {
+    max-width: 320px;
+  }
+}
+@media (min-width: 1200px) {
+  #contenedor-productos {
+    grid-template-columns: repeat(3, 1.2fr);
+    gap: 1rem;
+  }
+  #contenedor-productos .producto {
+    max-width: 400px;
+  }
+}
+footer {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  background-color: #2b2b2b;
+  color: #f85407;
+}
+footer .contenedor-recibir_ofertas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+footer .contenedor-recibir_ofertas h3 {
+  margin: 1rem;
+}
+footer .contenedor-recibir_ofertas form {
+  width: 100%;
+}
+footer .contenedor-recibir_ofertas div {
+  width: 60%;
+}
+footer .contenedor-recibir_ofertas .btn-white {
+  color: white;
+  border-color: white;
+}
+footer .contenedor-info_contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+footer .contenedor-info_contacto .logo img {
+  width: 130px;
+}
+footer .contenedor-info_contacto .info_contacto-mapa {
+  display: flex;
+  justify-content: center;
+  margin: 0 2rem;
+}
+footer .contenedor-info_contacto .info_contacto-mapa iframe {
+  max-width: 500px;
+}
+footer .contenedor-info_contacto .info_contacto-lista {
+  margin-bottom: 1rem;
+}
+footer .contenedor-info_contacto .info_contacto-lista li {
+  list-style: none;
+}
+footer #copy {
+  margin-top: 0.5rem;
+  color: white;
+  font-weight: 200;
+  border-top: 1px solid white;
+}
+
+@media (min-width: 992px) {
+  footer .contenedor-info_contacto {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  footer .contenedor-info_contacto {
+    margin-top: 1rem;
+    max-width: 1300px;
+  }
+  footer .contenedor-info_contacto .info_contacto-mapa {
+    margin: 0;
+  }
+}/*# sourceMappingURL=master.css.map */

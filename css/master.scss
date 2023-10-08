@@ -1,0 +1,129 @@
+@import "header";
+
+#productos {
+  border: 1px solid #4f4f4f;
+  border-radius: 15px;
+  margin: 1rem;
+  padding: 0.5rem;
+  h1 {
+    color: #4f4f4f;
+    font-size: 2rem;
+    margin: 1rem 0;
+    // margin-left: 3rem;
+    font-weight: 900;
+    text-decoration: underline;
+    width: 100%;
+    text-align: center;
+    // background-color: #4f4f4f;
+  }
+}
+/* Estilos para el contenedor de los productos */
+#contenedor-productos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  margin: 10px;
+  justify-content: center;
+}
+
+/* caja del producto */
+.producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 350px;
+  max-width: 350px;
+  margin: auto;
+
+  /* caja de la imagen */
+  .producto-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-producto {
+    height: 250px;
+  }
+
+  /* caja del texto */
+  .caja-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #d3d3d3;
+    border-radius: 15px;
+    .producto-nombre {
+      color: #f85407;
+      font-weight: bold;
+      font-size: 2rem;
+      margin: 0;
+    }
+    .producto-descripcion {
+      margin: 0;
+      height: 100%;
+      color: #4f4f4f;
+      font-size: 1.5rem;
+    }
+    .producto-precio {
+      margin: 20px 0;
+    }
+    .boton-ver_mas {
+      background-color: #007bff;
+      color: white;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 20px;
+      font-size: 1.3rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}
+
+/* css responsive */
+
+@media (min-width: 768px) {
+  #contenedor-productos {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .producto {
+    margin: 0 auto;
+    width: 360px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contenedor-productos {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    gap: 3px;
+
+    .producto {
+      max-width: 320px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  #contenedor-productos {
+    grid-template-columns: repeat(3, 1.2fr);
+    gap: 1rem;
+
+    .producto {
+      max-width: 400px;
+    }
+  }
+}
+
+@import "footer";

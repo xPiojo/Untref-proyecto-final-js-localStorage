@@ -1,0 +1,82 @@
+// Estilos para el footer
+footer {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  background-color: #2b2b2b;
+  color: #f85407;
+
+  // Estilos form recibir ofertas
+  .contenedor-recibir_ofertas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+      margin: 1rem;
+    }
+
+    form {
+      width: 100%;
+    }
+
+    div {
+      width: 60%;
+    }
+
+    .btn-white {
+      color: white;
+      border-color: white;
+    }
+  }
+
+  // Estilos contenedor informacion contacto
+  .contenedor-info_contacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    //Logo
+    .logo img {
+      width: 130px;
+    }
+    //Mapa
+    .info_contacto-mapa {
+      display: flex;
+      justify-content: center;
+      margin: 0 2rem;
+      iframe {
+        max-width: 500px;
+      }
+    }
+    // Lista informacion contacto
+    .info_contacto-lista {
+      margin-bottom: 1rem;
+      li {
+        list-style: none;
+      }
+    }
+  }
+  //Copy
+  #copy {
+    margin-top: 0.5rem;
+    color: white;
+    font-weight: 200;
+    border-top: 1px solid white;
+  }
+}
+
+@media (min-width: 992px) {
+  footer .contenedor-info_contacto {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  footer .contenedor-info_contacto {
+    margin-top: 1rem;
+    max-width: 1300px;
+    .info_contacto-mapa {
+      margin: 0;
+    }
+  }
+}

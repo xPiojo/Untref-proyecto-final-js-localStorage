@@ -1,0 +1,198 @@
+[
+  {
+    "id": "10001",
+    "nombre": "Motorola Moto G72",
+    "marca": "Motorola",
+    "descripcion": "128/6gb Azul Auricular De Regalo",
+    "precio": "170.999",
+    "detalle": "El Moto G72 presenta un lente ultra gran angular de 118° que permite capturar escenas más amplias. Además, cuenta con un sensor de profundidad para retratos profesionales y la posibilidad de ajustar la intensidad del desenfoque. También incluye una cámara Macro para capturar detalles cercanos.\n\nEn condiciones de poca luz, el modo Night Vision realza los detalles en las fotografías. La pantalla pOLED de 6.6\" ofrece colores reales y contraste infinito, brindando una experiencia de visualización envolvente y fluida. El sonido es potente gracias a los dos parlantes estéreo y el soporte Dolby Atmos®.",
+    "imagen": "./img/motorola_moto_G72_principal.webp",
+    "imagenesCarrusel": [
+      "./img/motorola_moto_G72_1.webp",
+      "./img/motorola_moto_G72_2.webp",
+      "./img/motorola_moto_G72_3.webp",
+      "./img/motorola_moto_G72_4.webp",
+      "./img/motorola_moto_G72_5.webp",
+      "./img/motorola_moto_G72_6.webp"
+    ],
+    "caracteristicas": [
+      "Almacenamiento: 128 GB",
+      "Procesador: Mediatek Helio G99",
+      "Memoria: 6 GB",
+      "Sistema Operativo: Android",
+      "Pantalla: Tamaño de Pantalla 6.55\"",
+      "Batería: Tamaño de Batería 5,000 mAh",
+      "Tipo de cargador: Turbo Cargador",
+      "Sensores: Acelerómetro, Sensor de Proximidad, Brújula (Campo magnético), Giroscopio, Huella Dactilar, Luz ambiente, Si",
+      "Diseño: Peso 166g, Dimensiones 160.47 x 74.4 x 7.89",
+      "Entradas: USB C",
+      "Cámara: Cámara Frontal 16 MP, Cámara Trasera Principal: 108 MP (83.63°) F1.7 Gran angular y profundidad: 8 MP (118°) F2.2 Macro: 2 MP (88.2°) F2.4",
+      "Conectividad: Bandas 2g/3g/4g, Bluetooth BT 5.1"
+    ]
+  },
+  {
+    "id": "10002",
+    "nombre": "Samsung Galaxy A04",
+    "marca": "Samsung",
+    "descripcion": "128 GB negro 4 GB RAM",
+    "precio": "94.999",
+    "detalle": "Dos opciones, un solo sensor\nUn sensor avanzado, dos perspectivas. Con el lente ultra gran angular de 118°, lográ fotografiar escenas cuatro veces más grandes en comparación con los lentes estándar de 78°. Además, el sensor de profundidad de la cámara principal desenfoca el fondo automáticamente y crea retratos profesionales.\n\nEnfocate\nHacé que las fotos cotidianas se conviertan en retratos de estilo profesional. Con el sensor de profundidad de la cámara principal, vas a poder desenfocar el fondo de manera automática. Después, podés ajustar el nivel de intensidad hacia arriba o hacia abajo.\n\nDescubrí los detalles\nTenés todo un mundo para fotografiar, desde las alas de una abeja hasta los cristales de un copo de nieve. La cámara Macro te acerca 5 veces más al objetivo para que descubras los detalles que no se pueden ver con un lente convencional.\n\nCapturá la noche\nCambiá al modo Night Vision en condiciones extremas de poca luz para resaltar más los detalles en la oscuridad. Al combinar múltiples tomas en una sola fotografía, obtenés fotos brillantes y expresivas con una claridad impresionante y colores precisos.\n\nPantalla nítida\nHacé que tu contenido de entretenimiento favorito cobre vida con más de mil millones de tonos de colores reales. La pantalla pOLED de 6.6\". Jugá, mirá películas y mucho más de forma envolvente gracias a la pantalla premium, que es ultradelgada y casi no tiene bordes. Viví una experiencia de visualización rápida y fluida con la frecuencia de actualización superveloz.\n\nColores brillantes y precisos\nDescubrí los colores reales y el contraste infinito de la tecnología pOLED. La pantalla pOLED ilumina de manera individual cada uno de los píxeles creando una representación precisa de los objetos con tonos oscuros más profundos y colores más brillantes.\n\nSonido Inigualable\n¿Querés disfrutar de tu contenido de entretenimiento a todo volumen?. Con dos parlantes estéreo y audio Dolby Atmos®, viví una experiencia de sonido multidimensional que te permite sentir mejor los bajos, disfrutar de voces más nítidas y escuchar con mayor claridad. El sonido viaja de un parlante al otro para coincidir con la acción que se ve en la pantalla.",
+    "imagen": "./img/samsung _galaxy_A04_principal.webp",
+    "imagenesCarrusel": [
+      "./img/samsung_galaxy_A04_1.webp",
+      "./img/samsung_galaxy_A04_2.webp",
+      "./img/samsung_galaxy_A04_3.webp",
+      "./img/samsung_galaxy_A04_4.webp",
+      "./img/samsung_galaxy_A04_5.webp",
+      "./img/samsung_galaxy_A04_6.webp"
+    ],
+    "caracteristicas": [
+      "Almacenamiento: 128 GB",
+      "Procesador: Unisoc SC9863A octa-core 1.6GHz",
+      "Memoria: 4 GB",
+      "Sistema Operativo: Android 12",
+      "Pantalla: PLS de 6.5",
+      "Batería:  Tamaño de Batería 5,000 mAh",
+      "Tipo de cargador: usb C",
+      "Sensores: Acelerómetro, Proximidad",
+      "Diseño: Peso 192g, Dimensiones 164.2 x 75.9 x 9.1 mm",
+      "Entradas: usb C, jack 3.5mm",
+      "Cámara: Cámara Frontal completar 5MP, f/2.2, Cámara Trasera Principal: Dual, 50 MP (f/1.8, wide) + 2 MP (f/2.4, profundidad)",
+      "Conectividad: Bandas 2g/3g/4g, Bluetooth BT 5.1",
+      "Wi-Fi: Wi-Fi 802.11 a/b/g/n/ac; Wi-Fi Direct; banda dual",
+      "NFC: No"
+    ]
+  },
+  {
+    "id": "10003",
+    "nombre": "Motorola Moto E13",
+    "marca": "Motorola",
+    "descripcion": "64gb 2gb Ram Azul Turquesa",
+    "precio": "67.999",
+    "detalle": "El celular Motorola Moto E13 cuenta con un diseño sofisticado y espectacular.\n\nObtén el estilo que estabas esperando con el moto e13. Su diseño delgado te proporciona una experiencia audiovisual multidimensional con audio Dolby Atmos y una pantalla ultraamplia HD+ de 6.5\".\n\nCon 5000 mAh puedes tener hasta 36 horas de batería. Quedarte sin energía es cosa del pasado gracias a la potente batería que te permite trabajar y jugar por más de un día.\n\nDisfruta de una transmisión sin interrupciones con la red Wi-Fi de 5 GHz, carga el teléfono con el conector USB-C 2.0 y conéctate fácilmente con la conexión Bluetooth 5.0",
+    "imagen": "./img/motorola_moto_E13_principal.webp",
+    "imagenesCarrusel": [
+      "./img/motorola_moto_E13_1.webp",
+      "./img/motorola_moto_E13_2.webp",
+      "./img/motorola_moto_E13_3.webp",
+      "./img/motorola_moto_E13_4.webp",
+      "./img/motorola_moto_E13_5.webp",
+      "./img/motorola_moto_E13_6.webp"
+    ],
+    "caracteristicas": [
+      "Almacenamiento: 64 GB",
+      "Procesador: Unisoc T606 Octa-Core de 1.6GHz",
+      "Memoria: 2 GB",
+      "Sistema Operativo: Android 13 GO Edition",
+      "Pantalla: IPS de 6.5",
+      "Batería:  Tamaño de Batería 5,000 mAh",
+      "Tipo de cargador: USB-C",
+      "Sensores: Acelerómetro, Proximidad, Luz ambiente",
+      "Diseño: Peso 180g, Dimensiones 164.2 x 75.9 x 9.1 mm",
+      "Entradas: usb C, jack 3.5mm",
+      "Cámara: Cámara Frontal 5 MP, f/2.4, wide, 1080p@30fps, HDR, Cámara Trasera Principal: 13 MP, f/2.2, PDAF, wide",
+      "Conectividad: Bandas 2g/3g/4g, Bluetooth BT 5.0",
+      "Wi-Fi: Wi-Fi 802.11 a/b/g/n/ac; Wi-Fi Direct; banda dual",
+      "NFC: No"
+    ]
+  },
+  {
+    "id": "10004",
+    "nombre": "Motorola Edge 30 Ultra",
+    "marca": "Motorola",
+    "descripcion": "256 GB blanco starlight 12 GB RAM",
+    "precio": "398.999",
+    "detalle": "Fotografía profesional en tu bolsillo\nDescubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados.\n\nAdemás, el dispositivo cuenta con cámara frontal de 60 Mpx para que puedas sacarte divertidas selfies o hacer videollamadas.\n\nCapacidad y eficiencia\nCon su potente procesador y memoria RAM de 12 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutará múltiples aplicaciones a la vez sin demoras.\n\nDesbloqueo facial y dactilar\nMáxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque, o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido.\n\nBatería de duración superior\n¡Desenchufate! Con la súper batería de 4610 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas.",
+    "imagen": "./img/Motorola_edge_30_ultra_principal.webp",
+    "imagenesCarrusel": [
+      "./img/Motorola_edge_30_ultra_1.webp",
+      "./img/Motorola_edge_30_ultra_2.webp",
+      "./img/Motorola_edge_30_ultra_3.webp",
+      "./img/Motorola_edge_30_ultra_4.webp",
+      "./img/Motorola_edge_30_ultra_5.webp",
+      "./img/Motorola_edge_30_ultra_6.webp"
+    ],
+    "caracteristicas": [
+      "Almacenamiento: 256 GB",
+      "Procesador: Snapdragon 8+ Gen 1 3.2GHz",
+      "Memoria: 12 GB",
+      "Sistema Operativo: Android 13",
+      "Pantalla: P-OLED de 6.67",
+      "Batería:  Tamaño de Batería 4610 mAh",
+      "Tipo de cargador: inalambrica",
+      "Sensores: Acelerómetro, Proximidad, Luz ambiente, Giroscopio, Brújula digital",
+      "Diseño: Peso 199g, Dimensiones 161.8 x 73.5 x 8.4 mm",
+      "Entradas: usb C",
+      "Cámara: Cámara Frontal 60 MP, f/2.2, wide, 4K@30fps, 1080p@30fps, HDR, Cámara Trasera Principal: Triple, 200 MP (f/2.0, PDAF, OIS, wide) + 50 MP (f/2.2, ultrawide) + 12 MP (f/1.6, PDAF, telefoto)",
+      "Conectividad: Bandas 2g/3g/4g/5g, Bluetooth BT v5.2 LE, A2DP, USB Type-C 3.1; OTG; DisplayPort 1.4",
+      "Wi-Fi: Wi-Fi E 802.11 E a/b/g/n/ac/ax; Wi-Fi Direct; banda dual",
+      "NFC: Si"
+    ]
+  },
+  {
+    "id": "10005",
+    "nombre": "Xiaomi Redmi Note 11",
+    "marca": "Xiaomi",
+    "descripcion": "(Snapdragon) Dual SIM 128 GB azul ocaso 4 GB RAM",
+    "precio": "132.999",
+    "detalle": "Fotografía profesional en tu bolsillo\nDescubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados.\n\nAdemás, el dispositivo cuenta con cámara frontal de 13 Mpx para que puedas sacarte divertidas selfies o hacer videollamadas.\n\nExperiencia visual increíble\nMirá tus series y películas favoritas con la mejor definición a través de su pantalla AMOLED de 6.67\". Disfrutá de colores brillantes y detalles precisos en todos tus contenidos.\n\nCapacidad y eficiencia\nCon su potente procesador y memoria RAM de 8 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutará múltiples aplicaciones a la vez sin demoras.\n\nDesbloqueo facial y dactilar\nMáxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque, o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido.\n\nBatería de duración superior\n¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas.",
+    "imagen": "./img/xiaomi_redmi_note_11principal.webp",
+    "imagenesCarrusel": [
+      "./img/xiaomi_redmi_note_11_1.webp",
+      "./img/xiaomi_redmi_note_11_2.webp",
+      "./img/xiaomi_redmi_note_11_3.webp",
+      "./img/xiaomi_redmi_note_11_4.webp",
+      "./img/xiaomi_redmi_note_11_5.webp",
+      "./img/xiaomi_redmi_note_11_6.webp"
+    ],
+    "caracteristicas": [
+      "Almacenamiento: 128 GB",
+      "Procesador: Snapdragon 680 Octa-Core de 2.4GHz",
+      "Memoria: 4 GB",
+      "Sistema Operativo: Android 13",
+      "Pantalla: AMOLED de 6.43\"",
+      "Batería:  Tamaño de Batería 5000mAh",
+      "Tipo de cargador: cable",
+      "Sensores: Acelerómetro, Proximidad, Luz ambiente, Giroscopio, Brújula digital",
+      "Diseño: Peso 199g, Dimensiones 161.8 x 73.5 x 8.4 mm",
+      "Entradas: USB Type-C 2.0, OTG, Conector de audio 3.5 mm",
+      "Cámara: Cámara Frontal: 13 MP, f/2.4, wide, 1080p, HDR, Cámara Trasera Principal: Cuádruple, 50 MP (f/1.8, PDAF, wide) + 8 MP (f/2.2, ultrawide) + 2 MP (f/2.4, macro) + 2 MP (f/2.4, profundidad)",
+      "Conectividad: Bandas 2g/3g/4g, Bluetooth BT v5.0 LE, A2DP; GPS con soporte A-GPS, GLONASS, BDS, GALILEO",
+      "Wi-Fi: Wi-Fi 802.11 a/b/g/n/ac; Wi-Fi Direct; banda dual",
+      "NFC: No"
+    ]
+  },
+  {
+    "id": "10006",
+    "nombre": "Samsung Galaxy A14",
+    "marca": "Samsung",
+    "descripcion": "128gb 4gb Ram Silver",
+    "precio": "108.999",
+    "detalle": "Conoce el Samsung Galaxy A14, un celular que combina diseño y funcionalidad en un elegante color Silver. Este smartphone cuenta con una memoria interna de 128 GB, lo que te permitirá almacenar todas tus fotos, videos y aplicaciones sin preocuparte por el espacio. Además, su memoria RAM de 4 GB garantiza un rendimiento fluido y rápido en todo momento.\n\nEl Samsung Galaxy A14 funciona con el sistema operativo Android, brindándote una experiencia de usuario intuitiva y personalizable. Disfruta de una conexión rápida y estable gracias a su compatibilidad con la red 4G/LTE.\n\nLa pantalla de 6,6\" pulgadas Full HD+ te ofrece colores vibrantes y detalles nítidos, ideal para ver tus series y películas favoritas o jugar a los últimos videojuegos. Además, su batería de 5000 mAh te asegura una larga duración para que puedas usar tu celular durante todo el día sin preocuparte por cargarlo.",
+    "imagen": "./img/motorola_moto_E13_principal.webp",
+    "imagenesCarrusel": [
+      "./img/samsung_galaxy_A14_1.webp",
+      "./img/samsung_galaxy_A14_2.webp",
+      "./img/samsung_galaxy_A14_3.webp",
+      "./img/samsung_galaxy_A14_4.webp",
+      "./img/samsung_galaxy_A14_5.webp",
+      "./img/samsung_galaxy_A14_6.webp"
+    ],
+    "caracteristicas": [
+      "Almacenamiento: 128 GB",
+      "Procesador: Mediatek MT6769 Helio G80 octa-core 2GHz",
+      "Memoria: 4 GB",
+      "Sistema Operativo: Android 13",
+      "Pantalla: PLS de 6.6\"",
+      "Batería:  Tamaño de Batería 5000mAh",
+      "Tipo de cargador: cable",
+      "Sensores: Acelerómetro, Proximidad, Luz ambiente, Giroscopio, Brújula digital",
+      "Diseño: Peso 201g, Dimensiones 167.7 x 78 x 9.1 mm",
+      "Entradas: USB Type-C 2.0, OTG, Conector de audio 3.5 mm",
+      "Cámara: Cámara Frontal: 13 MP, f/2.0, wide, 1080p, HDR, Cámara Trasera Principal: Triple, 50 MP (f/1.8, PDAF, wide) + 5 MP (f/2.2, ultrawide) + 2 MP (f/2.4, macro)",
+      "Conectividad: Bandas 2g/3g/4g, Bluetooth BT v5.1 LE, A2DP; GPS con soporte A-GPS, GLONASS, BDS, GALILEO",
+      "Wi-Fi: Wi-Fi 802.11 a/b/g/n/ac; Wi-Fi Direct; banda dual",
+      "NFC: Si (según región)"
+    ]
+  }
+]

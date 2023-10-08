@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="user" content="Roberto Oscar Gomez" />
+    <meta
+      name="description"
+      content="Proyecto final integrador html, css y js"
+    />
+    <title>DeviceDynasty</title>
+    <!-- Iconos de bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- Estilos -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/master.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+      <a href="./index.html"><img src="./img/logo.png" alt="Logo" /></a>
+    </div>
+    <a href="./carrito.html" class="carrito-icon">
+      <i class="bi bi-cart"></i>
+      <span class="carrito-text">Carrito</span></a
+    >
+  </header>
+    <section id="banner"></section>
+    <!-- Seccion Productos -->
+    <section id="productos">
+      <h1>NUESTROS PRODUCTOS</h1>
+      <div id="contenedor-productos"></div>
+    </section>
+
+    <footer>
+      <div class="contenedor-recibir_ofertas text-center">
+        <h3>Recibe nuestras ofertas y novedades en tu email</h3>
+
+        <form action="#" method="post" class="d-flex justify-content-center">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Tu email"
+              aria-label="Tu email"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn btn-outline-secondary btn-white"
+              type="button"
+              id="button-addon2"
+            >
+              Suscribirse
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="contenedor-info_contacto">
+        <div class="logo d-flex w-100 align-items-center">
+          <img class="mx-auto" src="./img/logo.png" alt="logo" />
+        </div>
+
+        <div class="info_contacto-mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105086.89093312966!2d-58.708532256640645!3d-34.60503789999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacb9f8ff113%3A0x22fd08da6711928d!2sUniversidad%20Nacional%20de%20Tres%20de%20Febrero%20-%20Sede%20Caseros%20I!5e0!3m2!1ses-419!2sar!4v1696181374382!5m2!1ses-419!2sar"
+            style="width: 100%; height: 100%; border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div
+          class="info_contacto-lista d-flex flex-column w-100 align-items-center"
+        >
+          <h3>Contactanos</h3>
+          <ul class="m-0">
+            <li class="m-1">
+              <a href="whatsapp://send?phone=5491120402348"
+                ><i class="bi bi-whatsapp m-1"></i>5491120402348</a
+              >
+            </li>
+            <li class="m-1">
+              <a href="tel:0800-122-67735"
+                ><i class="bi bi-telephone m-1"></i>0800-122-67735</a
+              >
+            </li>
+            <li class="m-1">
+              <a href="mailto:atencionarg@devicedynasti.com"
+                ><i class="bi bi-envelope m-1"></i
+                >atencionarg@devicedynasti.com</a
+              >
+            </li>
+          </ul>
+          <button class="btn btn-outline-secondary btn-white" type="button">
+            <a class="text-center" href="./form.html">Contactanos</a>
+          </button>
+        </div>
+      </div>
+
+      <p class="text-center mb-0 mt-3" id="copy">
+        Hecho por Roberto Oscar Gomez - 2023
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

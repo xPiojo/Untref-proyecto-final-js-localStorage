@@ -1,0 +1,35 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #2b2b2b;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  /* Estilos para el icono de carrito y elementos relacionados */
+}
+header .logo img {
+  width: 130px;
+}
+header .carrito-icon {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Para colocar al lado derecho del header */
+  margin-right: 30px;
+  /* Margen de separación */
+}
+header .carrito-icon i {
+  font-size: 1.8rem; /* Tamaño del icono */
+  margin-right: 5px; /* Espacio entre el icono y el texto */
+}
+header .carrito-icon span {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+}/*# sourceMappingURL=header.css.map */
