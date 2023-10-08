@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const params = new URLSearchParams(window.location.search);
   const productId = params.get("id");
 
+  // Carga la información del producto desde el local storage y la muertra en la pagina.
   cargarProductoLocalStorage();
   // Carga la información del producto y la muestra en la página
   // cargarProducto(productId);
@@ -25,7 +26,7 @@ function cargarProductoLocalStorage() {
 
 // Función para cargar la información del producto desde el archivo JSON
 function cargarProducto(productId) {
-  fetch("https://xpiojo.github.io/Untref-Proyecto-Final-Js/productos.json")
+  fetch("https://xpiojo.github.io/Untref-proyecto-final-js-localStorage/productos.json")
     .then((response) => response.json())
     .then((data) => {
       const productoSeleccionado = data.find(
@@ -64,7 +65,7 @@ function cargarInfoProducto(producto) {
 
 // Función para comprar un producto
 function comprarProducto(productId) {
-  fetch("https://xpiojo.github.io/Untref-Proyecto-Final-Js/productos.json")
+  fetch("https://xpiojo.github.io/Untref-proyecto-final-js-localStorage/productos.json")
     .then((response) => response.json())
     .then((data) => {
       const productoSeleccionado = data.find(

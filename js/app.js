@@ -1,5 +1,5 @@
 const listaProductos = document.getElementById("contenedor-productos");
-const url = "https://xpiojo.github.io/Untref-Proyecto-Final-Js/productos.json"
+const url = "https://xpiojo.github.io/Untref-proyecto-final-js-localStorage/productos.json"
 // /productos.json
 
 fetch(url)
